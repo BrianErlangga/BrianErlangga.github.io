@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+## Summart Of Skills
 
-You can use the [editor on GitHub](https://github.com/BrianErlangga/brianerlangga.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- 2 years of experience using Java gained through 2 high school courses.
+- 1 year experience with Android App Development demonstrated by creating an app using Android Studios for a high school organization called CYNEA that is currently
+used by students.
+- Proficient knowledge of computer hardware gained through 3 years of experience in high school Computer Engineering class.
+- Experience in C++; Currently learning C++ in ECE 150.
+- Strong team collaboration skills demonstrated through working with a group of 4 to place top 15 in a 48 hour HackAgainstCovid Hackathon.
+- Implement key time-management skills in high-demand settings as demonstrated through working for the CNE Most Popular Food Stand in 2019.
 
 ### Markdown
 
