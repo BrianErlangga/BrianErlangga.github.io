@@ -1,4 +1,4 @@
-## Summart Of Skills
+## Summary Of Skills
 
 - 2 years of experience using Java gained through 2 high school courses.
 - 1 year experience with Android App Development demonstrated by creating an app using Android Studios for a high school organization called CYNEA that is currently
@@ -8,9 +8,13 @@ used by students.
 - Strong team collaboration skills demonstrated through working with a group of 4 to place top 15 in a 48 hour HackAgainstCovid Hackathon.
 - Implement key time-management skills in high-demand settings as demonstrated through working for the CNE Most Popular Food Stand in 2019.
 
-### Markdown
+## Projects
+# **CYNEA**
+Android Development
+- Used Android Studios and Java to develop an Android App with a team that curates specific recipes based on given personal information.
+- Assisted in ideating the dashboard of the "TrackMe by CYNEA App using Figma.
+- Worked on the backend database of the app using Firebase and Algolia.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
