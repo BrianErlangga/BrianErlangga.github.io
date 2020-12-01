@@ -3,13 +3,29 @@ html{
   
 }
 
-h1 {
+svg{
+  fill: white;
+  width: 35px;
+  height: 35px;
+}
+svg:hover{
+  fill:#696969;
+}
+
+p{
   font-family: 'Montserrat';
   text-align: center;
-  font-size: 400%;
+  font-size: 100%;
+  color: white;
+  padding-top: 200000 px;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 450%;
   color: white;
   /* text-shadow: 2px 2px 5px #000000 ; */
-
 }
 
 h2{
@@ -48,7 +64,7 @@ body, html {
   background-size: cover;
   position: static;
   background-position: center;
-  background-image: url(https://cdn.discordapp.com/attachments/631641314034974732/783105959564017704/IMG_0794.JPG);
+  background-image: url('images/MainPic.jpg');
   background-color: black;
   background-attachment: fixed;
 }
@@ -64,6 +80,15 @@ body, html {
   margin: 0;
   position: absolute;
   left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.horizontal-center-bottom{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
   -ms-transform: translate(-50%);
   transform: translate(-50%);
 }
@@ -102,13 +127,14 @@ footer {
 
 /*############################ Nav Bar ############*/
 nav{
-  text-align: center;
+  
   width: 100%;
   margin:0;
   font-family: 'Open Sans';
 }
 
 nav ul{
+  
   background-color: transparent;
   overflow: hidden;
   margin: 0;
@@ -121,16 +147,15 @@ ul.topnav li{
 }
 
 ul.topnav li a{
+  
   display: block;
   text-decoration: none;
   min-height: 16px;
   padding: 20px;
-  text-transform: uppercase;
   color:white;
 }
 
-ul.topnav a:hover {
-  background-color: tomato;
-  color: black;
-}
+/* ul.topnav a:hover {
+  
+} */
 
