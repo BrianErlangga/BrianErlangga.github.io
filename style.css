@@ -1,11 +1,21 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
 h1 {
-  color: #E85A4F;
-  text-shadow: 2px 2px 5px #000000 ;
+  font-family: 'Montserrat';
+  padding-top: 350px;
   text-align: center;
+  font-size: 400%;
+  color: white;
+  /* text-shadow: 2px 2px 5px #000000 ; */
 
 }
 
 h2{
+  font-size: 300%;
+  font-family: 'Open Sans';
   color: #000000;
   text-align: center;
 }
@@ -21,20 +31,79 @@ body {
   border-top: 0px;
   min-width: 100%;
   margin: 0;
-  padding: 0;
+  line-height: 1;
   overflow-x: hidden;
+  padding: 0;
 }
 
 .imagebackground{
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: transparent;
+  position: static;
   background-position: center;
-  background-image: url(https://wallpapercave.com/wp/wp4390658.jpg);
+  background-image: url(https://cdn.discordapp.com/attachments/631641314034974732/783105959564017704/IMG_0794.JPG);
+  background-color: black;
   min-height: 0px;
-  padding-top: 402px;
-  padding-bottom: 403px;
+  padding-top: 0px;
+  padding-bottom: 500px;
   background-attachment: fixed;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
+.mainbackground{
+  min-height: 0px;
+  padding-top: 50px;
+  margin: 0px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-color: #C2CAD0;
+}
+
+
+nav,
+header,
+footer {
+  display: block;
+}
+
+/*############################ Nav Bar ############*/
+nav{
+  width: 100%;
+  margin:0;
+  font-family: 'Open Sans';
+}
+
+nav ul{
+  background-color: #8E8D8A;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li{
+  display: inline;
+  list-style: none;
+  float: left;
+  
+}
+
+ul.topnav li a{
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  padding: 20px;
+  text-transform: uppercase;
+  color:white;
+}
+
+ul.topnav li a:hover {
+  background-color: black;
+  color: white;
 }
