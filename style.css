@@ -1,26 +1,26 @@
-
-
 h1 {
   font-family: 'Poppins', sans-serif;
-  text-align: center;
   font-size: 450%;
   color: white;
- 
+  text-align: center;
 }
+
 
 h2{
   font-size: 300%;
   font-family: 'Open Sans';
   color: #000000;
-  text-align: center;
+  
 }
 
 h3{
-  color: #8E8D8A
+  font-family: 'Poppins', sans-serif;
+  font-size: 450%;
+  color: white;
 }
 
 h5{
-  color: #E85A4F
+  color: #585858
 }
 /* body {
   position: relative;
@@ -33,21 +33,12 @@ h5{
 } */
 
 body, html {
-  height: 100%;
-}
-
-.imagebackground{
+  overflow-x: hidden;
   margin: 0;
-  max-width: 100%;
+  padding: 0;
   height: 100%;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: static;
-  background-position: center;
-  background-image: url('https://brianerlangga.github.io/Images/MainPic.jpg');
-  background-color: black;
-  background-attachment: fixed;
+  background-color: whitesmoke  !important;
+  scroll-behavior: smooth;
 }
 
 
@@ -108,29 +99,32 @@ body, html {
   background-size: cover;
   position: static;
   background-position: center;
-  background-image: url('https://brianerlangga.github.io/Images/MainPic.jpg');
+  background-image: url('https://cdn.discordapp.com/attachments/631641314034974732/795897214462984202/unknown.png');
+  filter: grayscale(50%);
   background-color: black;
   background-attachment: fixed;
+  
 }
 
 nav,
 header,
 footer {
+  
   display: block;
 }
 
 /*############################ Nav Bar ############*/
 nav{
-  
+  font-size: 20px;
   width: 100%;
   margin:0;
   font-family: 'Open Sans';
+  background-color: transparent;
 }
 
 nav ul{
-  
   background-color: transparent;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
   padding: 0;
 }
@@ -140,8 +134,11 @@ ul.topnav li{
   list-style: none;  
 }
 
+.nav li{
+  display:inline-block;
+}
+
 ul.topnav li a{
-  
   display: block;
   text-decoration: none;
   min-height: 16px;
@@ -149,24 +146,58 @@ ul.topnav li a{
   color:white;
 }
 
-/* ul.topnav a:hover {
-  
-} */
-
 .row{
   background-color: grey;
-  height: fit-content;
+  min-height: 100vh;
+  
 }
 
-[class*="col-"] {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  left: 25%;
-  margin: 0;
-  width: fit-content;
-  font-family: 'Open Sans';
-
-  height: 500px;
- 
-  text-align: center;
+.about_picture{
+  float: right;
+  padding-top: 120px;
+  padding-right: 20px;
+  padding-bottom: 80px;
 }
+
+.about_text{
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-bottom: 80px;
+}
+
+.navbar {
+  width: 100%;
+  border: 0px !important;
+  background-color: black !important;
+  margin: 0 !important;
+  background-size: contain;
+  
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.nav-link:hover{
+  color: yellow;
+}
+
+.nav-link-custom{
+  color: yellow;
+}
+
+.nav-link-custom:hover{
+  color: blue;
+}
+
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.img-custom{
+  max-width: 100%;
+  height: auto;
+}
+
